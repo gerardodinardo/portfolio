@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<title>Gerard Andres</title>
+<meta charset="UTF-8" />
+<meta lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="css/w3.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+<link href="fontawesome/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css" />
+<script src="js/main.js"></script>
+<link rel="icon" type="image/png" href="img/logo.png">
+
+<body>
+  <!-- navbar normal -->
+  <div class="w3-top">
+
+
+    <div class="w3-card w3-animate-top w3-white" id="myNavbar">
+
+      <a href="#"> <img src="img/logo.png" alt="logo" height="3.5%" width="3.5%"
+          class="w3-bar-item w3-button  w3-hide-small "> </a>
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small "><i class="fas fa-address-card"></i>SOBRE MÍ</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small "><i class="fas fa-briefcase"></i>PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-mail-bulk"></i>CONTACTO</a>
+
+    </div>
+
+    <!-- navbar móvils -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE MÍ</a>
+      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACTO</a>
+    </div>
+  </div>
+
+  <!-- nom -->
+  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space: nowrap;">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity yo">GERARD ANDRES
+        TORRES</span>
+    </div>
+
+    <div class="w3-display-bottommiddle" style="white-space: nowrap;">
+      <span style="font-size: 8em; color: #3f3f3f">
+        <a href="#about" class="w3-hover-opacity"> <i class="fas fa-arrow-down"></i></a>
+      </span>
+    </div>
+  </div>
+
+  <!-- about me -->
+  <div class="w3-row w3-container w3-padding-64" id="about">
+
+    <h2 class="w3-center">SOBRE MÍ</h2>
+
+    <div class="w3-content">
+      <div class="w3-right">
+        <!-- <img src="img/me.jfif" alt="my_picture" width="120%" height="120%" /> -->
+      </div>
+      <p class="w3-center"><em>
+          Desarrollador y entusiasta de la tecnología. Nacido en Ibiza, estudiando y viviendo en Barcelona.
+        </em></p>
+
+    </div>
+
+    <div class="w3-content">
+
+      <div class="skills">
+        <p class="w3-large w3-center w3-padding-16"><strong>Tecnologías que me gustan</strong></p>
+        <p class="w3-center">· PHP <i class="fab fa-php"></i></p>
+        <p class="w3-center">· Laravel <i class="fab fa-laravel"></i></p>
+        <p class="w3-center">· JAVA <i class="fab fa-java"></i></p>
+        <p class="w3-center">· SQL <i class="fas fa-database"></i></p>
+      </div>
+
+      <div class="skills">
+        <p class="w3-large w3-center w3-padding-16"><strong>Herramientas</strong></p>
+        <p class="w3-center">· Git <i class="fab fa-git-alt"></i></p>
+        <p class="w3-center">· GNU/Linux <i class="fab fa-linux"></i></p>
+        <p class="w3-center">· Visual Studio/Code <i class="fas fa-edit"></i></p>
+        <p class="w3-center">· IntelliJ  <i class="fas fa-edit"></i></p>
+        <p class="w3-center">· Netbeans <i class="fas fa-edit"></i></p>
+      </div>
+
+      <div class="skills">
+        <p class="w3-large w3-center w3-padding-16"> <strong>Otras tecnologías</strong></p>
+        <p class="w3-center">· Python <i class="fab fa-python"></i></p>
+        <p class="w3-center">· CSS <i class="fab fa-css3"></i></p>
+        <p class="w3-center">· SASS <i class="fab fa-sass"></i></p>
+        <p class="w3-center">· Bootstrap <i class="fab fa-bootstrap"></i></p>
+        <p class="w3-center">· JavaScript <i class="fab fa-js-square"></i></p>
+      </div>
+    </div>
+
+    <div class="w3-center">
+      <div class="skills">
+        <p class="w3-large w3-center w3-padding-16"> <strong>Cosas que me gustaría aprender</strong></p>
+        <p class="w3-center">· Más tecnologías de BackEnd <i class="fas fa-server"></i></p>
+        <p class="w3-center">· Vue <i class="fab fa-vuejs"></i></p>
+        <p class="w3-center">· Go <i class="fab fa-google"></i></p>
+        <p class="w3-center">· Docker <i class="fab fa-docker"></i></p>
+        <p class="w3-center">· TypeScript <i class="fas fa-edit"></i></p>
+        <p class="w3-center">· NodeJS<i class="fab fa-node-js"></i></p>
+      </div>
+
+      <div class="skills  w3-large w3-center">
+        <p class="w3-large w3-center w3-padding-16"><strong>Idiomas</strong></p>
+        <p class="w3-center">· Catalán (nativo)</p>
+        <p class="w3-center">· Castellano (nativo)</p>
+        <p class="w3-center">· Inglés </p>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  <!-- portfolio -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PORTFOLIO</span>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h2 class="w3-center">PORTFOLIO</h2>
+    <p class="w3-center"><em>Puedes encontrar algunos proyectos que he hecho en mi  <a href="https://github.com/gerardodinardo" class="w3-hover-opacity xarxes">perfil de Github <i class="fab fa-github"></i></em>
+    </p>
+    <br />
+
+  </div>
+
+
+
+  <!-- modals -->
+
+
+  <!-- <div class="w3-container">
+    <!--modal broggi  -->
+  <div id="modal1" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('modal1').style.display='none'"
+          class="w3-button w3-display-topright">&times;</span>
+        <div class="w3-center">
+
+          <h3 class="w3-center">BROGGI</h3>
+
+
+
+          <p class="w3-center">
+            <em>
+
+              <!-- This project is part of my formation. We made an application for tranning emergency teleoperators during
+              they formation on Broggi institute.
+              This application is made with Laravel on the backend and almost everything on the fronted is Boostrap
+              with some custom css.
+              Here my part was work with the BD connection with some funtionanities and users login and sign up
+              system.
+              It's done with Laravel using CRUD for connect the database. -->
+
+              Este es uno de los proyectos que realicé durante mi formación, fue una apliación hecha para 
+              formar a los estudiantes del instituto Broggi para atención de emergencías.
+              Está hecho completamente con Laravel y con Boostrap, yo me encargé principalmente de la parte de
+              backend, modelos, controladores y gestión de usuarios. Se puede probar en el enlace de abajo.
+              <br>
+              <a
+                href="http://http://abp-politecnics.com/2020/dwa0203/broggi/public/"></a> 
+              <span style="font-size: 5em; color: #3f3f3f">
+                <a href="http://abp-politecnics.com/2020/dwa0203/broggi/public/"><i class="fas fa-link"></i></a>
+              </span>
+
+            </em></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+
+  <div class="w3-container">
+
+ 
+  </div>
+
+
+  <!-- contact -->
+  <div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CONTACTO</span>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+
+    <div class="w3-row w3-padding-32 w3-section">
+
+      <div class="w3-col m8 w3-panel">
+        <div class="w3-large w3-margin-bottom">
+          <i class="fas fa-compass w3-hover-opacity"></i></i>Barcelona/Ibiza, ESP
+          <br />
+          <a href="mailto: gerardibz@gmail.com" class="w3-hover-opacity"><i class="fas fa-envelope"></i>Email:
+            gerardibz@gmail.com</a>
+          <br />
+          <a href="https://www.linkedin.com/in/gerard-andres-torres-0689561a2/" class="w3-hover-opacity xarxes"><i
+              class="fab fa-linkedin-in"></i> LinkedIn</a>
+          <br>
+          <a href="https://github.com/gerardodinardo" class="w3-hover-opacity xarxes"><i class="fab fa-github"></i>
+            GitHub</a>
+          <br>
+
+        </div>
+
+
+
+        <!-- form -->
+        <form action="https://formspree.io/maypqlyg" target="_blank" method="POST">
+          <div class="w3-row-padding" style="margin: 0 -16px 8px -16px;">
+            <div class="w3-half">
+              <input class="w3-input w3-border" name="name" type="text" placeholder="Nombre" required name="Name" />
+            </div>
+
+            <div class="w3-half">
+              <input class="w3-input w3-border" name="email" type="text" placeholder="Email" required name="Email" />
+            </div>
+
+          </div>
+          <textarea class="w3-input w3-border" type="text" name="message" placeholder="Mensaje" required
+            name="Message" /></textarea>
+          <button class=" w3-half w3-button w3-black w3-center w3-section" type="submit">
+            <i class="fa fa-paper-plane"></i> ENVIAR </button>
+
+        </form>
+
+
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
