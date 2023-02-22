@@ -15,7 +15,6 @@ html {
   line-height: 1.8;
 }
 
-
 .bgimg-1,
 .bgimg-2,
 .bgimg-3 {
@@ -26,25 +25,17 @@ html {
 }
 
 p em {
-
   font-size: 19px;
-
 }
 
 div .skills p {
-
   font-size: 19px;
-
 }
-
-
-
 
 .bgimg-1 {
   background-image: url("../img/bg.jpg");
   min-height: 100%;
 }
-
 
 .bgimg-2 {
   background-image: url("../img/bg.jpg");
@@ -64,34 +55,29 @@ div .skills p {
   cursor: pointer;
 }
 
-
-
 div .skills {
-
   position: relative;
   float: left;
   clear: right;
   margin-right: 1%;
-
 }
 
 .works {
-
   border: solid;
   border-color: #3f3f3f;
   border-width: 3px;
   margin-right: 3%;
-
 }
 
 .xarxes {
-
   text-decoration: none;
-
 }
 
 a {
-
   text-decoration: none;
+}
 
+.grid-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
